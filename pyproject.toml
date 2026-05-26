@@ -26,4 +26,5 @@ atulya-scrub = "atulya_data_scruber.cli:main"
 version = {attr = "atulya_data_scruber.__version__"}
 
 [tool.setuptools.packages.find]
-where = ["src"]
+include = ["*"]
+
