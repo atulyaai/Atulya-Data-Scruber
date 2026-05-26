@@ -38,7 +38,7 @@ flowchart LR
     PROFILE --> RULES["Preset + Custom Rules"]
     RULES --> PREVIEW["Preview Changes"]
     PREVIEW --> EXPORT["Clean Workbook + Report"]
-    EXPORT --> MODULES["GST · ERP · HR · SAP"]
+    EXPORT --> OUTPUT["Excel · CSV · JSON Reports"]
 ```
 
 ## 🖥️ Cross-Platform Plan
@@ -47,7 +47,7 @@ flowchart LR
 |---|---|
 | Windows / macOS / Linux | Drag-and-drop desktop application |
 | Server | CLI and Docker worker for scheduled jobs |
-| Atulya One | Embedded cleaning engine reused by every module |
+| CLI / server | Optional scheduled batch-cleaning jobs |
 
 ## 🗺️ Roadmap
 
@@ -56,16 +56,16 @@ flowchart LR
 | 1 | Excel/CSV import, profiling, duplicate removal and export |
 | 2 | Bank, ERP and tax-sheet presets with exception reports |
 | 3 | Recipe builder, batch folders and PDF-table inputs |
-| 4 | Reconciliation primitives shared with GST and ERP |
-| 5 | Scheduled workflows and Atulya One integration |
+| 4 | Reconciliation rules, exception reports and column mapping |
+| 5 | Scheduled workflows and one-click packaged releases |
 
 ## 🔐 Data Rule
 
 Input files should never be overwritten by default. Every run produces a new cleaned file and a readable transformation report.
 
-## 🔗 Ecosystem
+## 🔗 Independent Atulya Projects
 
-[Atulya GST](https://github.com/atulyaai/Atulya-GST-Suite) · [Atulya SAP](https://github.com/atulyaai/Atulya-SAP-Automations) · [Atulya Office](https://github.com/atulyaai/Atulya-Office) · [Atulya ERP](https://github.com/atulyaai/Atulya-Accounting-ERP)
+This is a standalone product. Discover other independent Atulya repositories: [Automation Hub](https://github.com/atulyaai/Atulya-Automation-Hub) · [ERP](https://github.com/atulyaai/Atulya-Accounting-ERP) · [GST](https://github.com/atulyaai/Atulya-GST-Suite) · [SAP](https://github.com/atulyaai/Atulya-SAP-Automations) · [Office](https://github.com/atulyaai/Atulya-Office) · [HR](https://github.com/atulyaai/Atulya-HR-Suite) · [Invoice](https://github.com/atulyaai/Atulya-Invoice) · [Convert](https://github.com/atulyaai/Atulya-All-File-Converter) · [Host](https://github.com/atulyaai/Atulya-Launch)
 
 ## 📜 License
 
