@@ -65,7 +65,7 @@ Input files should never be overwritten by default. Every run produces a new cle
 
 ## 🔗 Ecosystem
 
-[Atulya GST](https://github.com/atulyaai/Atulya-GST) · [Atulya SAP](https://github.com/atulyaai/Atulya-SAP) · [Atulya Office](https://github.com/atulyaai/Atulya-Office) · [Atulya ERP](https://github.com/atulyaai/Atulya-ERP)
+[Atulya GST](https://github.com/atulyaai/Atulya-GST-Suite) · [Atulya SAP](https://github.com/atulyaai/Atulya-SAP-Automations) · [Atulya Office](https://github.com/atulyaai/Atulya-Office) · [Atulya ERP](https://github.com/atulyaai/Atulya-Accounting-ERP)
 
 ## 📜 License
 
