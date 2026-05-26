@@ -1,14 +1,14 @@
-# Atulya DataClean
+# Atulya-Data-Scruber
 
 > **Turn messy business files into clean, usable data in one click.** 🧹📊
 
-![Atulya - One-click business automation](assets/atulya-hero.png)
+![Atulya-Data-Scruber banner](assets/atulya-hero.png)
 
 ![Status](https://img.shields.io/badge/status-roadmap-f59e0b)
 ![Inputs](https://img.shields.io/badge/inputs-Excel%20%7C%20CSV%20%7C%20PDF%20tables%20%7C%20JSON-2563eb)
 ![Privacy](https://img.shields.io/badge/processing-local--first-10b981)
 
-Atulya DataClean is planned as one of the first usable Atulya products: a desktop tool for cleaning spreadsheet exports from ERP systems, tax workflows, banks, payroll sources and everyday office files.
+Atulya-Data-Scruber is planned as a standalone desktop tool for cleaning spreadsheet exports from ERP systems, tax workflows, banks, payroll sources and everyday office files.
 
 > 🚧 This repository is in design and implementation planning. Downloads will appear only after validated builds are ready.
 
@@ -62,10 +62,6 @@ flowchart LR
 ## 🔐 Data Rule
 
 Input files should never be overwritten by default. Every run produces a new cleaned file and a readable transformation report.
-
-## 🔗 Independent Atulya Projects
-
-This is a standalone product. Discover other independent Atulya repositories: [Automation Hub](https://github.com/atulyaai/Atulya-Automation-Hub) · [ERP](https://github.com/atulyaai/Atulya-Accounting-ERP) · [GST](https://github.com/atulyaai/Atulya-GST-Suite) · [SAP](https://github.com/atulyaai/Atulya-SAP-Automations) · [Office](https://github.com/atulyaai/Atulya-Office) · [HR](https://github.com/atulyaai/Atulya-HR-Suite) · [Invoice](https://github.com/atulyaai/Atulya-Invoice) · [Convert](https://github.com/atulyaai/Atulya-All-File-Converter) · [Host](https://github.com/atulyaai/Atulya-Launch)
 
 ## 📜 License
 
